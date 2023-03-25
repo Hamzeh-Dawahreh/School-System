@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Sono:wght@300;400;500&family=Source+Code+Pro:ital,wght@1,200;1,400&display=swap");
+
+* {
+  font-family: "Delicious Handrawn";
+}
+.navbar {
+  background-color: #2e5271;
+}
+
+.nav-link {
+  color: white;
+}
+.navbar .nav-link:hover {
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  text-decoration: none;
+  border: none;
+}
+body {
+  background: linear-gradient(white, rgba(161, 150, 150, 0.178));
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  margin-left: 20rem;
+  margin-top: 10rem;
+}
+
+#confirm1 {
+  background-color: #2e5271;
+  color: white;
+  width: 80px;
+  margin-top: 20px;
+  box-shadow: 1px 1px 0px 1px black;
+}
+
+input[type="submit"]:hover {
+  scale: 1.1;
+  transition: 1s;
+}
+.table11 {
+  overflow-x: auto;
+  display: flex;
+  justify-content: center;
+}
+table {
+  width: 80%;
+}
+table,
+th,
+td {
+  border: 1px solid;
+  padding: 5px;
+}
+th {
+  background-color: #e7e9eb;
+}
+
+@media (max-width: 768px) {
+  form {
+    margin-left: 10rem;
+  }
+}
+@media (max-width: 520px) {
+  form {
+    margin-left: 5rem;
+  }
+}
+@media (max-width: 430px) {
+  form {
+    font-size: smaller;
+    width: 15rem;
+  }
+}
