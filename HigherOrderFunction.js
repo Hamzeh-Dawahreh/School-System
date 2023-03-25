@@ -15,6 +15,8 @@
 // };
 // console.log(arrayRaise(arr));
 
+//Using forEach
+
 // let arr = [0, 1, 2, 3, 4, 5];
 // let arrayRaise = (arr) => {
 //   let forEach1 = [];
