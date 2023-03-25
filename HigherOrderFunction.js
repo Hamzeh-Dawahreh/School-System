@@ -1,7 +1,19 @@
 //5- Write a function that, takes an array of integers as input, iterates over the array, and returns a new array.
 //  The returned array should contain the result of raising 2 to the power of the original input element.
+//Using for-loop
 
-//Using forEach
+// let arr = [0, 1, 2, 3, 4, 5];
+// let arrayRaise = (arr) => {
+//   let result = [];
+//   for (i = 0; i < arr.length; i++) {
+//     let newArray = arr[i];
+
+//     let power = Math.pow(2, newArray);
+//     result.push(power);
+//   }
+//   return result;
+// };
+// console.log(arrayRaise(arr));
 
 // let arr = [0, 1, 2, 3, 4, 5];
 // let arrayRaise = (arr) => {
