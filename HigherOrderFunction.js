@@ -2,14 +2,15 @@
 //  The returned array should contain the result of raising 2 to the power of the original input element.
 //Using for-loop
 
-// let arr = [0, 1, 2, 3, 4, 5];
+let arr = [0, 1, 2, 3, 4, 5];
 // let arrayRaise = (arr) => {
-//   let result = [];
+let result = [];
 //   for (i = 0; i < arr.length; i++) {
 //     let newArray = arr[i];
-
+let newArray = Math.pow(2, arr[i]);
 //     let power = Math.pow(2, newArray);
-//     result.push(power);
+result.push(newArray);
+console.log(result);
 //   }
 //   return result;
 // };
