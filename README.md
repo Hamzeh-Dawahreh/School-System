@@ -1,6 +1,6 @@
 # School-System
 
-This is a School System Website with a form and table filled using Js.(and another js file with a higher order function task).Using:
+This is a School System Website with a form and table filled using JS.(and another js file with a higher order function task).Using:
 
 - HTML
 - CSS
